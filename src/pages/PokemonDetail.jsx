@@ -26,7 +26,7 @@ const PokemonDetail = () => {
   };
 
   return (
-    <main className="flex flex-col text-center justify-center items-center capitalize mb-8 min-w-[375px] bg-gradient-to-b">
+    <main className="flex flex-col text-center justify-center items-center capitalize mb-8 min-w-[375px]">
       <Footer />
       <section className="w-[min(100%,_500px)] mt-14 shadow-2xl border rounded">
         <article className="mb-8">

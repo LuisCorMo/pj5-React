@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <main className="min-h-screen flex justify-center items-center bg-gamePoke bg-no-repeat bg-[length:1000px_700px] sm:bg-cover">
-      <section className="bg-white/50 border-8 border-black rounded-3xl text-center min-w-[310px] min-h-[520px] grid items-center relative sm: w-3/4">
+      <section className="bg-white/50 border-8 border-black rounded-3xl text-center min-w-[310px] min-h-[520px] grid items-center relative sm:w-3/4">
         <article>
           <div className="absolute -top-[68px] left-1/2 -translate-x-1/2 min-w-[220px] sm:-top-[86px]">
             <img className="w-[280px]" src="/images/logoPoke.png" alt="" />

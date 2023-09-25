@@ -29,7 +29,7 @@ const Pagination = ({
   const handleFirstPage = () => setCurrentPage(INITIAL_PAGE);
 
   return (
-    <ul className="mt-10 mb-8 text-center flex  justify-center items-center gap-4">
+    <ul className="mt-10 mb-8 text-center flex  justify-center items-center gap-2">
       {currentPage >= 3 && (
         <li className="cursor-pointer" onClick={handleFirstPage}>
           {"<<"}
